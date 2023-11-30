@@ -1,0 +1,41 @@
+@charset "utf-8";
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+}
+
+.baslik {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.bar {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.bar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bar a:hover {
+    background-color: black;
+    color: white;
+  }
+.footerRavens {
+    text-align: center;
+    color: white;
+}
